@@ -55,7 +55,7 @@ class SingleTumorADC(Dataset):
         return len(self.train_list)
 
     def __getitem__(self, item):
-        img = nib.load(self.label_list[item]).get_fdata()
+        img = nib.load(self.train_list[item]).get_fdata()
         lab = nib.load(self.label_list[item]).get_fdata()
 
         img = np.array(img).astype(np.float32)
