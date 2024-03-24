@@ -1,2 +1,2 @@
 # 3DCNNForCRMs
-Code for paper: Automatic Segmentation of Cystic Renal Masses Using Three-dimensional Convolution Neural Networks on MRI: A Multicenter, Multivendor Study
+Code for paper: Automated segmentation and detection of complicated cystic renal masses using 3D V-Net convolutional neural network on multiparametric MRI
