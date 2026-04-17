@@ -1,5 +1,5 @@
 # 3DCNNForCRMs
-Code for British Journal of Radiology 2026: Automated segmentation of complicated cystic renal masses using 3D V-Net convolutional neural network on MRI
+Code for Paper: [Automated segmentation of complicated cystic renal masses using 3D V-Net convolutional neural network on MRI](https://academic.oup.com/bjr/article-abstract/99/1180/812/8465957?redirectedFrom=fulltext)
 
 # Installing Dependencies
 Dependencies can be installed using:
@@ -39,3 +39,19 @@ python eval_[certain modality].py
 --model='VNET' or 'UNET3D'
 --resume='model_saved_path/model.pth'
 --cuda
+```
+
+
+# Citation
+If this code or article has inspired you, please cite it:
+```bash
+@article{kang2026automated,
+  title={Automated Segmentation of Complicated Cystic Renal Masses Using 3D V-Net Convolutional Neural Network on MRI},
+  author={Kang, Huanhuan and Jia, Chuang and Wang, Zhongyi and Huang, Bin and Wang, He and Jiang, Jiahui and Liu, Zhe and Cui, Mengqiu and Zhao, Jian and Bai, Xu and others},
+  journal={British Journal of Radiology},
+  pages={811-822},
+  year={2026},
+  url={https://doi.org/10.1093/bjr/tqag027},
+  publisher={Oxford University Press}
+}
+```
