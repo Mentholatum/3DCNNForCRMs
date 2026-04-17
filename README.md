@@ -1,5 +1,5 @@
 # 3DCNNForCRMs
-Code for paper: Automated segmentation and detection of complicated cystic renal masses using 3D V-Net convolutional neural network on multiparametric MRI
+Code for British Journal of Radiology 2026: Automated segmentation of complicated cystic renal masses using 3D V-Net convolutional neural network on MRI
 
 # Installing Dependencies
 Dependencies can be installed using:
